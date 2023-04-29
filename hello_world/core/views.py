@@ -8,3 +8,16 @@ def index(request):
             "title": "Django example",
         },
     )
+
+
+def login(request):
+    return render(
+        request,
+        "login.html"
+    )
+
+def click(request):
+    return render(
+        request,
+        "login.html"
+    )
